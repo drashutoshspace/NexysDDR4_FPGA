@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:D:/Projects/FPGA/And_Gate/And_Gate.srcs/constrs_1/new/And_Gate.xdc rfile:../../../And_Gate.srcs/constrs_1/new/And_Gate.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J15 [get_ports a]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L16 [get_ports b]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H17 [get_ports c]
