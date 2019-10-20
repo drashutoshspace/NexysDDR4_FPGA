@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/VHDL/AND_2X1/AND_2X1_isim_beh.exe" -prj "E:/VHDL/AND_2X1/AND_2X1_beh.prj" "work.AND_2X1" 
