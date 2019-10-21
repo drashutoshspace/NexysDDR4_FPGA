@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Oct 22 01:44:28 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "MUX_OUT_Q" LOCATE = SITE "H17" LEVEL 1;
+COMP "MUX_IN_A<0>" LOCATE = SITE "M13" LEVEL 1;
+COMP "MUX_IN_A<1>" LOCATE = SITE "R15" LEVEL 1;
+COMP "MUX_IN_A<2>" LOCATE = SITE "R17" LEVEL 1;
+COMP "MUX_IN_A<3>" LOCATE = SITE "T18" LEVEL 1;
+COMP "MUX_SEL<0>" LOCATE = SITE "J15" LEVEL 1;
+COMP "MUX_SEL<1>" LOCATE = SITE "L16" LEVEL 1;
+SCHEMATIC END;
+

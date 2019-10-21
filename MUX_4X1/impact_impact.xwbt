@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\Projects\FPGA\MUX_4X1\impact.xsl
+OUTFILE=D:\Projects\FPGA\MUX_4X1\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=D:\Projects\FPGA\MUX_4X1
+LICENSE=iMPACT
+USER_INFO=iMPACT
