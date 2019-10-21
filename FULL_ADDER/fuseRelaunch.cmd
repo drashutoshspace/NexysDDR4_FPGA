@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/VHDL/FULL_ADDER/FULL_ADDER_isim_beh.exe" -prj "E:/VHDL/FULL_ADDER/FULL_ADDER_beh.prj" "work.FULL_ADDER" 

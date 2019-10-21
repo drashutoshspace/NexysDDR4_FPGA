@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Oct 22 01:00:17 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "FA_IN_A" LOCATE = SITE "J15" LEVEL 1;
+COMP "FA_IN_B" LOCATE = SITE "L16" LEVEL 1;
+COMP "FA_OUT_SUM" LOCATE = SITE "K15" LEVEL 1;
+COMP "FA_IN_CARRY" LOCATE = SITE "M13" LEVEL 1;
+COMP "FA_OUT_CARRY" LOCATE = SITE "H17" LEVEL 1;
+SCHEMATIC END;
+

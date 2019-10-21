@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/VHDL/FULL_ADDER/FULL_ADDER_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="full_adder" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/full_adder/fa_in_a" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">fa_in_a</obj_property>
+      <obj_property name="ObjectShortName">fa_in_a</obj_property>
+      <obj_property name="label">fa_in_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/fa_in_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fa_in_b</obj_property>
+      <obj_property name="ObjectShortName">fa_in_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/fa_in_carry" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fa_in_carry</obj_property>
+      <obj_property name="ObjectShortName">fa_in_carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/fa_out_sum" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fa_out_sum</obj_property>
+      <obj_property name="ObjectShortName">fa_out_sum</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/fa_out_carry" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fa_out_carry</obj_property>
+      <obj_property name="ObjectShortName">fa_out_carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/s1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s1</obj_property>
+      <obj_property name="ObjectShortName">s1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/s2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s2</obj_property>
+      <obj_property name="ObjectShortName">s2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/s3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s3</obj_property>
+      <obj_property name="ObjectShortName">s3</obj_property>
+   </wvobject>
+</wave_config>

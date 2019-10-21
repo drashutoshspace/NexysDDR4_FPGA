@@ -1,0 +1,3 @@
+vhdl work "../OR_GATE/OR_GATE.vhd"
+vhdl work "../HALF_ADDER/HALF_ADDER.vhd"
+vhdl work "FULL_ADDER.vhd"
