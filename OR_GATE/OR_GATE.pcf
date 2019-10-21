@@ -1,0 +1,10 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Oct 22 00:23:41 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "OR_OUT_C" LOCATE = SITE "H17" LEVEL 1;
+COMP "OR_IN_A" LOCATE = SITE "J15" LEVEL 1;
+COMP "OR_IN_B" LOCATE = SITE "L16" LEVEL 1;
+SCHEMATIC END;
+

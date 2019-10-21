@@ -1,0 +1,12 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "OR_IN_A" LOC = J15;
+NET "OR_IN_B" LOC = L16;
+NET "OR_OUT_C" LOC = H17;
+
+# PlanAhead Generated IO constraints 
+
+NET "OR_IN_A" IOSTANDARD = LVCMOS33;
+NET "OR_IN_B" IOSTANDARD = LVCMOS33;
+NET "OR_OUT_C" IOSTANDARD = LVCMOS33;
