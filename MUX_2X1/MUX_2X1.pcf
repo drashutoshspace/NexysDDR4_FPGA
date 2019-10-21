@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Oct 22 01:23:30 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "MUX_SEL" LOCATE = SITE "M13" LEVEL 1;
+COMP "MUX_IN_A" LOCATE = SITE "J15" LEVEL 1;
+COMP "MUX_IN_B" LOCATE = SITE "L16" LEVEL 1;
+COMP "MUX_OUT_C" LOCATE = SITE "H17" LEVEL 1;
+SCHEMATIC END;
+
