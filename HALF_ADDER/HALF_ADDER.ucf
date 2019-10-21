@@ -1,0 +1,14 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "HA_IN_A" IOSTANDARD = LVCMOS33;
+NET "HA_IN_B" IOSTANDARD = LVCMOS33;
+NET "HA_OUT_CARRY" IOSTANDARD = LVCMOS33;
+NET "HA_OUT_SUM" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "HA_IN_A" LOC = J15;
+NET "HA_IN_B" LOC = L16;
+NET "HA_OUT_CARRY" LOC = H17;
+NET "HA_OUT_SUM" LOC = K15;
