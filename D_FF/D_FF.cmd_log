@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/Projects/FPGA/D_FF/D_FF.xst" -ofn "D:/Projects/FPGA/D_FF/D_FF.syr" 
+xst -intstyle ise -ifn "D:/Projects/FPGA/D_FF/D_FF.xst" -ofn "D:/Projects/FPGA/D_FF/D_FF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc D_FF.ucf -p xc7a100t-csg324-3 D_FF.ngc D_FF.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o D_FF_map.ncd D_FF.ngd D_FF.pcf 
+par -w -intstyle ise -ol high -mt off D_FF_map.ncd D_FF.ncd D_FF.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml D_FF.twx D_FF.ncd -o D_FF.twr D_FF.pcf -ucf D_FF.ucf 
+bitgen -intstyle ise -f D_FF.ut D_FF.ncd 

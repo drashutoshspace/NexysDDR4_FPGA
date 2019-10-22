@@ -1,0 +1,18 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "D" LOC = L16;
+NET "Q" LOC = H17;
+
+# PlanAhead Generated IO constraints 
+
+NET "D" IOSTANDARD = LVCMOS33;
+NET "Q" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "CLOCK" LOC = E3;
+
+# PlanAhead Generated IO constraints 
+
+NET "CLOCK" IOSTANDARD = LVCMOS33;
