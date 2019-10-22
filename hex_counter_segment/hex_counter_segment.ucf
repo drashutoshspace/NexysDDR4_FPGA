@@ -1,0 +1,51 @@
+
+
+NET "anode[7]" IOSTANDARD = LVCMOS33;
+NET "anode[6]" IOSTANDARD = LVCMOS33;
+NET "anode[5]" IOSTANDARD = LVCMOS33;
+NET "anode[4]" IOSTANDARD = LVCMOS33;
+NET "anode[3]" IOSTANDARD = LVCMOS33;
+NET "anode[2]" IOSTANDARD = LVCMOS33;
+NET "anode[1]" IOSTANDARD = LVCMOS33;
+NET "anode[0]" IOSTANDARD = LVCMOS33;
+NET "led_count[3]" IOSTANDARD = LVCMOS33;
+NET "led_count[2]" IOSTANDARD = LVCMOS33;
+NET "led_count[1]" IOSTANDARD = LVCMOS33;
+NET "led_count[0]" IOSTANDARD = LVCMOS33;
+NET "segment[7]" IOSTANDARD = LVCMOS33;
+NET "segment[6]" IOSTANDARD = LVCMOS33;
+NET "segment[5]" IOSTANDARD = LVCMOS33;
+NET "segment[4]" IOSTANDARD = LVCMOS33;
+NET "segment[3]" IOSTANDARD = LVCMOS33;
+NET "segment[2]" IOSTANDARD = LVCMOS33;
+NET "segment[1]" IOSTANDARD = LVCMOS33;
+NET "segment[0]" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "rst" IOSTANDARD = LVCMOS33;
+
+
+NET "led_count[3]" LOC = N14;
+NET "led_count[2]" LOC = J13;
+NET "led_count[1]" LOC = K15;
+NET "led_count[0]" LOC = H17;
+NET "clk" LOC = E3;
+NET "anode[0]" LOC = U13;
+NET "rst" LOC = R16;
+NET "anode[1]" LOC = K2;
+NET "anode[2]" LOC = T14;
+NET "anode[3]" LOC = P14;
+NET "anode[4]" LOC = J14;
+NET "anode[5]" LOC = T9;
+NET "anode[6]" LOC = J18;
+NET "anode[7]" LOC = J17;
+
+# PlanAhead Generated physical constraints 
+
+NET "segment[0]" LOC = T10;
+NET "segment[1]" LOC = R10;
+NET "segment[2]" LOC = K16;
+NET "segment[3]" LOC = K13;
+NET "segment[4]" LOC = P15;
+NET "segment[5]" LOC = T11;
+NET "segment[6]" LOC = L18;
+NET "segment[7]" LOC = H15;

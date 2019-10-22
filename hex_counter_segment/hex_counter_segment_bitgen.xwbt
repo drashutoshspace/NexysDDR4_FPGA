@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Projects\FPGA\hex_counter_segment\hex_counter_segment.ncd
+OUTFILE=D:\Projects\FPGA\hex_counter_segment\hex_counter_segment.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=D:\Projects\FPGA\hex_counter_segment
+LICENSE=WebPack
+USER_INFO=207962502_0_0_172

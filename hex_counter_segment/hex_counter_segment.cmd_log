@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.xst" -ofn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.syr" 
+xst -intstyle ise -ifn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.xst" -ofn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.syr" 
+xst -intstyle ise -ifn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.xst" -ofn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.syr" 
+xst -intstyle ise -ifn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.xst" -ofn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.syr" 
+xst -intstyle ise -ifn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.xst" -ofn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.syr" 
+xst -intstyle ise -ifn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.xst" -ofn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 hex_counter_segment.ngc hex_counter_segment.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hex_counter_segment_map.ncd hex_counter_segment.ngd hex_counter_segment.pcf 
+par -w -intstyle ise -ol high -mt off hex_counter_segment_map.ncd hex_counter_segment.ncd hex_counter_segment.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml hex_counter_segment.twx hex_counter_segment.ncd -o hex_counter_segment.twr hex_counter_segment.pcf 
+bitgen -intstyle ise -f hex_counter_segment.ut hex_counter_segment.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hex_counter_segment.ucf -p xc7a100t-csg324-3 hex_counter_segment.ngc hex_counter_segment.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hex_counter_segment_map.ncd hex_counter_segment.ngd hex_counter_segment.pcf 
+par -w -intstyle ise -ol high -mt off hex_counter_segment_map.ncd hex_counter_segment.ncd hex_counter_segment.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml hex_counter_segment.twx hex_counter_segment.ncd -o hex_counter_segment.twr hex_counter_segment.pcf -ucf hex_counter_segment.ucf 
+bitgen -intstyle ise -f hex_counter_segment.ut hex_counter_segment.ncd 
+xst -intstyle ise -ifn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.xst" -ofn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hex_counter_segment.ucf -p xc7a100t-csg324-3 hex_counter_segment.ngc hex_counter_segment.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hex_counter_segment_map.ncd hex_counter_segment.ngd hex_counter_segment.pcf 
+par -w -intstyle ise -ol high -mt off hex_counter_segment_map.ncd hex_counter_segment.ncd hex_counter_segment.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml hex_counter_segment.twx hex_counter_segment.ncd -o hex_counter_segment.twr hex_counter_segment.pcf -ucf hex_counter_segment.ucf 
+bitgen -intstyle ise -f hex_counter_segment.ut hex_counter_segment.ncd 
+xst -intstyle ise -ifn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.xst" -ofn "D:/Projects/FPGA/hex_counter_segment/hex_counter_segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hex_counter_segment.ucf -p xc7a100t-csg324-3 hex_counter_segment.ngc hex_counter_segment.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hex_counter_segment_map.ncd hex_counter_segment.ngd hex_counter_segment.pcf 
+par -w -intstyle ise -ol high -mt off hex_counter_segment_map.ncd hex_counter_segment.ncd hex_counter_segment.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml hex_counter_segment.twx hex_counter_segment.ncd -o hex_counter_segment.twr hex_counter_segment.pcf -ucf hex_counter_segment.ucf 
+bitgen -intstyle ise -f hex_counter_segment.ut hex_counter_segment.ncd 
