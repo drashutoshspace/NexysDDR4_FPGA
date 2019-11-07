@@ -1,0 +1,1 @@
+-wto "c2f18901b7f44b42a6ad08e5a0bdcc8b" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "btogray_behav" "xil_defaultlib.btogray" -log "elaborate.log" 
