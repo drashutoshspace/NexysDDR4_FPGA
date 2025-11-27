@@ -1,0 +1,11 @@
+# Exclude large simulation files
+*.wdb
+
+# Exclude other large binary files
+*.bit
+*.dcp
+*.pb
+
+# Exclude simulation artifacts
+*.log
+*.jou
